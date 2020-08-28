@@ -1,0 +1,98 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+#closing_line
+{
+    padding-left: 20px;
+    padding-top: 10px;
+
+    text-align: left;
+    font-family: Cambria;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+#profile_picture_cell
+{
+    padding-top: 30px;
+
+    vertical-align: top;
+    width: 170px;
+}
+
+
+
+#profile_picture
+{
+    padding-left: 20px;
+    padding-right: 20px;
+
+    width: 130px;
+}
+
+
+
+#information_cell
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+#name
+{
+    font-family: Cambria;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+
+
+
+#position
+{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+#institution
+{
+    padding-bottom: 20px;
+
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+
+#email_address_text, #telephone_number_text, #location_text
+{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+#email_address, #telephone_number, #location
+{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+
+#quote
+{
+    padding-left: 20px;
+
+    font-size: 18px;
+}

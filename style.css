@@ -2,6 +2,15 @@
 {
     margin: 0px;
     padding: 0px;
+
+    font-family: Cambria, serif;
+}
+
+
+
+#signature
+{
+    width: 500px;
 }
 
 
@@ -12,8 +21,7 @@
     padding-top: 10px;
 
     text-align: left;
-    font-family: Cambria;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -34,7 +42,7 @@
     padding-left: 20px;
     padding-right: 20px;
 
-    width: 130px;
+    width: 100px;
 }
 
 
@@ -49,8 +57,7 @@
 
 #name
 {
-    font-family: Cambria;
-    font-size: 26px;
+    font-size: 20px;
     letter-spacing: 1px;
 }
 
@@ -58,7 +65,7 @@
 
 #position
 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: normal;
 }
 
@@ -68,13 +75,13 @@
 {
     padding-bottom: 20px;
 
-    font-size: 20px;
+    font-size: 16px;
     font-weight: normal;
 }
 
 
 
-#email_address_text, #telephone_number_text, #location_text
+#email_address_text, #telephone_number_text, #location_text, #website_text
 {
     font-weight: bold;
     margin-right: 10px;
@@ -82,10 +89,24 @@
 
 
 
-#email_address, #telephone_number, #location
+#email_address, #telephone_number, #location, #website
 {
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+
+#social_media
+{
+    padding-left: 20px;
+}
+
+
+
+.social_media_button
+{
+    width: 22px;
 }
 
 

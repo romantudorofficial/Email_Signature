@@ -1,5 +1,8 @@
 *
 {
+    --link_color: #000000;
+    --link_hover_color: #be0032;
+
     margin: 0px;
     padding: 0px;
 
@@ -10,15 +13,14 @@
 
 #signature
 {
-    width: 500px;
+    width: 430px;
 }
 
 
 
 #closing_line
 {
-    padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 30px;
 
     text-align: left;
     font-size: 18px;
@@ -29,17 +31,16 @@
 
 #profile_picture_cell
 {
-    padding-top: 30px;
+    padding-top: 20px;
 
     vertical-align: top;
-    width: 170px;
+    width: 130px;
 }
 
 
 
 #profile_picture
 {
-    padding-left: 20px;
     padding-right: 20px;
 
     width: 100px;
@@ -47,10 +48,33 @@
 
 
 
+#social_media
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+    width: 100px;
+
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+.social_media_button
+{
+    width: 20px;
+
+    padding: 2px;
+    padding-top: 5px;
+}
+
+
+
 #information_cell
 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 
@@ -92,28 +116,41 @@
 #email_address, #telephone_number, #location, #website
 {
     font-size: 16px;
-    line-height: 20px;
-}
-
-
-
-#social_media
-{
-    padding-left: 20px;
-}
-
-
-
-.social_media_button
-{
-    width: 22px;
+    line-height: 22px;
 }
 
 
 
 #quote
 {
-    padding-left: 20px;
-
     font-size: 18px;
+}
+
+
+
+a:link
+{
+    color: var(--link_color);
+    text-decoration: none;
+}
+
+
+
+a:visited
+{
+    color: var(--link_color);
+}
+
+
+
+a:hover
+{
+    color: var(--link_hover_color);
+}
+
+
+
+a:active
+{
+    color: var(--link_color);
 }
